@@ -327,6 +327,8 @@ p {
             width: 50px;
             height: 50px;
             position: fixed;
+            bottom: 80px !important; /* Increased to move the button higher */
+            right: 80px !important; /* Increased to move the button further left */
             bottom: 23px;
             right: 44px;
             background-color: #ab45e7;
@@ -335,6 +337,7 @@ p {
             border-radius: 50%;
             cursor: pointer;
             font-size: 18px;
+            display: flex !important; /* Added to center content */
             align-items: center;
             justify-content: center;
         }
@@ -497,7 +500,8 @@ p {
             document.documentElement.setAttribute("data-theme", newTheme);
         }
     </script>
-
+    
+    
     <div id="progress-container">
         <div id="progress-bar"></div>
       </div>
